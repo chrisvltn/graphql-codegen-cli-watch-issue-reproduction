@@ -9,7 +9,7 @@
     "build": "tsc && vite build",
     "start": "vite preview --port 3000",
     "codegen": "graphql-codegen --config codegen.ts",
-    "test": "cypress run",
+    "test": "node test.mjs",
     "test:end2end": "start-server-and-test start http://localhost:3000 test"
   },
   "dependencies": {

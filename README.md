@@ -27,3 +27,11 @@ There is no description about why it stopped, as it exits as successful, and doe
 ### Expected behavior
 
 The codegen watch process that spawns in the background should exit with code `1` (error), and output in `stderr` the reason why it failed to execute (missing `@parcel/watcher` dependency).
+
+## Testing
+
+Run the tests by running:
+
+```sh
+npm run test
+```
